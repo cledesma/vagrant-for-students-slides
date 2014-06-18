@@ -1,0 +1,221 @@
+<!-- views/index.html -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vagrant - a lightning talk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="reveal.js/css/reveal.min.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/default.css" id="theme">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section>
+                <a class="image" target="_blank">
+                    <img src="img/vagrant.png" width="600" height="400">
+                </a>
+                <h1>Vagrant - a lightning talk
+                </h1>
+            </section>
+
+            <section>
+                <h2>Case 1:</h2>
+                <h3>As a student, you want to play around with Linux</h3>
+            </section>
+
+            <section>
+                <h2>Ubuntu</h2>
+                <a class="image" target="_blank">
+                    <img src="img/ubuntu.png">
+                </a>
+            </section>
+
+            <section>
+                <h2>But, you’re stuck on</h2>
+                <a class="image" target="_blank">
+                    <img src="img/windows.png">
+                </a>
+            </section>
+
+            <section>
+                <h1>Solution</h1>
+            </section>
+
+            <section>
+                <h2>Dual boot</h2>
+                <a class="image" target="_blank">
+                    <img src="img/grub.png">
+                </a>
+            </section>
+
+            <section>
+                <h2>Use VirtualBox</h2>
+                <a class="image" target="_blank">
+                    <img src="img/vbox2.jpg">
+                </a>
+            </section>
+
+            <section>
+                <h1>Problem solved!</h1>
+            </section>
+
+            <section>
+                <h2>Case 2:</h2>
+                <h3>As a student, you want to play with another Linux flavor</h3>
+            </section>
+
+            <section>
+                <h2>Fedora!</h2>
+                <a class="image" target="_blank">
+                    <img src="img/fed1.png">
+                </a>
+            </section>
+
+            <section>
+                <h1>Solution</h1>
+            </section>
+
+            <section>
+                <h2>Triple boot???</h2>
+                <a class="image" target="_blank">
+                    <img src="img/grub.png">
+                </a>
+            </section>
+
+            <section>
+                <h2>Use VirtualBox</h2>
+                <a class="image" target="_blank">
+                    <img src="img/vbox2.jpg">
+                </a>
+            </section>
+
+            <section>
+                <h2>VirtualBox wins!</h2>
+                <a class="image" target="_blank">
+                    <img src="img/vbox-win.jpg">
+                </a>
+            </section>
+
+            <section>
+                <h2>Case 3:</h2>
+                <h3>But you heard most enterprise software are deployed on CentOS linux...</h3>
+                <a class="image" target="_blank">
+                    <img src="img/centos.png">
+                </a>
+            </section>
+
+            <section>
+                <h1>Solution</h1>
+            </section>
+
+            <section>
+                <h2>Still Virtualization!</h2>
+                <a class="image" target="_blank">
+                    <img src="img/vbox.png">
+                </a>
+            </section>
+
+            <section>
+                <h2>VirtualBox workflow:</h2>
+                <ul>
+                    <li>Download ISO/VDI file</li>
+                    <li>Load file on VBOX</li>
+                    <li>Configure settings</li>
+                    <li>Run virtual machine</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>...or use Vagrant</h2>
+                <a class="image" target="_blank">
+                    <img src="img/vagrant.png">
+                </a>
+            </section>
+
+            <section>
+                <h2>so that you will only have to do this:</h2>
+                <a class="image" target="_blank">
+                    <img src="img/vagrant-workflow.png">
+                </a>
+            </section>
+
+
+            <section>
+                <h2>Vagrant is...</h2>
+                <ul>
+                    <li>Command line wrapper for Virtual Box</li>
+                    <li>Plus a lot more</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>You can manage your cloud instances on Amazon EC2, Digital Ocean, Rackspace using Vagrant</h3>
+                <a class="image" target="_blank">
+                    <img src="img/cloud.png">
+                </a>
+            </section>
+
+            <section>
+                <h1>Demo time</h1>
+            </section>
+
+            <section>
+                <h1>Simple commands to memorize</h1>
+            </section>
+
+            <section>
+                <h1>vagrant up</h1>
+                <h3>starts virtual machine</h3>
+            </section>
+
+            <section>
+                <h1>vagrant halt</h1>
+                <h3>graceful shutdown</h3>
+            </section>
+
+            <section>
+                <h1>vagrant destroy</h1>
+                <h3>stops and deletes virtual machine</h3>
+            </section>
+
+            <section>
+                <h1>vagrant ssh</h1>
+                <h3>access the virtual machine</h3>
+            </section>
+
+            <section>
+                <h1>Congratulations</h1>
+                <h3>Yun na yon!</h3>
+            </section>
+
+            <section>
+                <h3>Pahabol:</h3>
+                <a class="image" target="_blank">
+                    <img src="img/vagrant-boxes.png">
+                </a>
+            </section>
+
+            <section>
+                <h3>vagrant init {favorite os}</h3>
+            </section>
+
+            <section>
+                <h1>Thank you!</h1>
+                <h3>github.com/cmled</h3>
+            </section>
+
+        </div>
+    </div>
+    <script src="reveal.js/js/reveal.min.js"></script>
+    <script type="text/javascript">
+    Reveal.initialize({
+        history: true
+    });
+    </script>
+</body>
+
+</html>
